@@ -1,0 +1,21 @@
+body {
+  background: url("/css_secrets/img/tessalated_06.jpg") repeat;
+}
+
+.padding-box-bg-clip {
+  padding: 1em 2em;
+  border: 10px solid rgba(200,100,255,0.8);
+  border-radius: 0.5em;
+  background: black;
+  background-clip: padding-box;
+  color: white;
+}
+
+.border-box-bg-clip {
+  padding: 1em 2em;
+  border: 10px solid rgba(0,0,0,0.5);
+  border-radius: 1em;
+  background: #136;
+  background-clip: border-box;
+  color: white;
+}
