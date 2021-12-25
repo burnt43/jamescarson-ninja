@@ -1,0 +1,26 @@
+.figure1-4 {
+  margin: 1em 0em;
+  padding: 0.5em 1em;
+  border: 3px solid rgba(0,0,0,0.3);
+  background: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.0));
+  border-radius: 0.5em;
+  color: white;
+  font-size: 125%;
+  line-height: 1.5;
+}
+
+.blue-background {
+  background-color: #128;
+}
+.green-background {
+  background-color: #1a6;
+}
+
+.foobar01 {
+  border-width: 10px;
+  border-left-width: 0px;
+}
+
+.foobar02 {
+  background: currentColor;
+}
