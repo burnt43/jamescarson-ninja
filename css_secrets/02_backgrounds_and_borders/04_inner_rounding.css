@@ -1,0 +1,29 @@
+body {
+  background: url("/css_secrets/img/tessalated_06.jpg") repeat;
+}
+
+hr {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.inner-rounding-01 {
+  background: #433;
+  padding: 1em;
+}
+
+.inner-rounding-01 > div {
+  background: #ec9;
+  border-radius: 0.3em;
+  padding: 0.5em;
+}
+
+.inner-rounding-02 {
+  margin-left: 1em;
+  margin-right: 1em;
+  background: tan;
+  border-radius: 0.8em;
+  padding: 1em;
+  outline: 0.6em solid #655;
+  box-shadow: 0 0 0 0.4em #655;
+}
