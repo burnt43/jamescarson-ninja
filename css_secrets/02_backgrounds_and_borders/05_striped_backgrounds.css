@@ -5,7 +5,7 @@ body {
 div {
   padding: 1em 1em;
   font-size: 24px;
-  color: deeppink;
+  color: white;
   text-shadow: 0.05em 0em 0 #000;
 }
 
@@ -27,6 +27,63 @@ div {
 }
 
 .basic-linear-gradient-05 {
-  background: linear-gradient(#6cf 20%, #024 0);
+  border: 10px solid rgba(0,0,0,0.6);
+  border-radius: 1em;
+  background: linear-gradient(#3ac 20%, #024 0);
+  background-size: 100% 20px;
+  background-clip: padding-box;
+}
+
+.three-color-stripes {
+  border: 10px solid rgba(0,0,0,1);
+  border-radius: 0.5em;
+  background: linear-gradient(#a22 33.3%, #2a2 0, #2a2 66.6%, #22a 0);
   background-size: 100% 30px;
+}
+
+.basic-vertical-stripes {
+  border: 10px solid rgba(0,0,0,1);
+  border-radius: 0.5em;
+  background: linear-gradient(to right, yellowgreen 50%, blue 0);
+  background-size: 30px 100%;
+}
+
+.bad-diagonal-stripes {
+  border: 10px solid rgba(0,0,0,1);
+  border-radius: 0.5em;
+  background: linear-gradient(45deg, yellowgreen 50%, blue 0);
+  background-size: 30px 30px;
+}
+
+.better-diagonal-stripes {
+  background: linear-gradient(45deg, yellowgreen 25%, blue 0, blue 50%, yellowgreen 0, yellowgreen 75%, blue 0);
+  background-size: 30px 30px;
+}
+
+.thicker-better-diagonal-stripes {
+  background: linear-gradient(45deg, yellowgreen 25%, blue 0, blue 50%, yellowgreen 0, yellowgreen 75%, blue 0);
+  background-size: 43px 43px;
+}
+
+.repeating {
+  background: repeating-linear-gradient(45deg, yellowgreen, blue 30px);
+}
+
+.repeating-2 {
+  background: repeating-linear-gradient(45deg, #fb3, #fb3 15px, #58a 0, #58a 30px);
+}
+
+.repeating-3 {
+  background: repeating-linear-gradient(60deg, #fb3, #fb3 15px, #58a 0, #58a 30px);
+}
+
+.repeating-4 {
+  border: 3px solid black;
+  border-radius: 0.5em;
+  background: #58a;
+  background-image: repeating-linear-gradient(-20deg,
+                      rgba(0,0,0,0.1),
+                      rgba(0,0,0,0.1) 15px,
+                      transparent 0,
+                      transparent 30px);
 }
